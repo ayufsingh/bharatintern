@@ -53,11 +53,17 @@ nav ul li a:hover {
 .leftSection {
     font-size: 2rem;
 }
-.leftSection .btn{
-    margin: 5% 0%;
-    padding: 12px;
+.button{
+    padding:3% 0;
 }
-
+.leftSection .btn{
+    transition: all 100ms ease-in-out;
+    padding: 2% 2%;
+    margin:0 11px 0 0;
+}
+.btn:hover{
+    transform: scale(1.1)
+}
 .rightSection {
     align-items: center;
     margin: -3%;
