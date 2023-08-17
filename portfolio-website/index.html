@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, inital scale=1.0">
+    <title> Ayush - Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Ayush's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Service</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Ayush</span>
+                <div>I am a passionate</div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn" style="background: rgb(34, 9, 92); color: aliceblue; border: 2px solid white; border-radius: 6px; font-size: 20px;">
+                        Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="assets/pp.webp">
+            </div>
+        </section>
+
+        <section class="aboutme">
+            <div class="about">
+                <h1 class="arrow">
+                    "A little"
+                    <span>about</span>
+                    "me"
+                </h1>
+                <p>I'm a tech enthusiast pursuing a Bachelor's in Information Technology. From programming to IoT, I
+                    bridge theory with hands-on projects. Beyond academics, I find joy in music, cinematography, and
+                    photography. Passionate about merging tech and creativity for impactful innovation. Looking to
+                    contribute, learn, and grow. </p>
+            </div>
+        </section>
+
+        <section class="Education" style="display: flex;justify-content: space-around;">
+            <div class="text" style="margin: 0 4%;">
+                <div>
+                    <div class="head">
+                        <h1>Education</h1>
+                    </div>
+                    <div class="college">
+                        <h3>Krishna Engineering College</h3>
+                        <span class="greytext">
+                            <h4>B.Tech(IT)</h4>August 2021-2025
+                        </span>
+                    </div>
+                    <div class="college">
+                        <h3>Sant Pathik Vidyalaya</h3>
+                        <span class="greytext">
+                            <h4>Senior and Senior Secondary</h4>March 2016-2020
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="image" style="margin: 0 10%;"><img src="assets/kec.png" style="width: 100%;"></div>
+            </div>
+
+        </section>
+
+        <section class="skills" style="text-align: center;">
+            <h1>Skills</h1>
+            <img src="assets/html.png" alt="" class="icon">
+            <img src="assets/css.png" alt="" class="icon">
+            <img src="assets/js.png" alt="" class="icon">
+            <img src="assets/c-.png" alt="" class="icon">
+        </section>
+        <section class="contact" style="text-align: center;">
+            <h1>Contact Me</h1>
+            <section class="boxes">
+                <div class="box">
+                    <h2>
+                        <div class="icon"><img src="assets/loc.png"></div>
+                        <div class="text"><span class="boxname">Address</span>
+                    </h2>
+                    <p>New Delhi, India</p>
+                </div>
+                <div class="box">
+                    <h2>
+                        <div class="icon"><img src="assets/call.png"></div>
+                        <div class="text"><span class="boxname">Phone</span>
+                    </h2>
+                    <p>+91 9876 543 210</p>
+                </div>
+                </div>
+                <div class="box">
+                    <h2>
+                        <div class="icon"><img src="assets/email.png"></div>
+                        <div class="text"><span class="boxname">Email</span>
+                    </h2>
+                    <p>ayushvind31@gmail.com</p>
+                </div>
+                </div>
+            </section>
+
+        </section>
+
+        <section class="social">
+            <ul class="sb">
+                <li><a href="https://www.instagram.com/ayufsingh/" target="_blank"><img src="assets/instagram (1).png"
+                            alt=""></a></li>
+                <li><a href="https://www.linkedin.com/in/ayufsingh/" target="_blank"><img src="assets/linkedin.png"
+                            alt=""></a>
+                </li>
+                <li><a href="https://github.com/ayufsingh" target="_blank"><img src="assets/github.png" alt=""></a></li>
+            </ul>
+        </section>
+
+        <section class="footer">
+            All Rights Reserved. &copy; 2023 Ayush Vind
+        </section>
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphical Designer', 'Photographer', 'Videographer', 'Web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
