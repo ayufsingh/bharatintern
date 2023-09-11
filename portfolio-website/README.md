@@ -30,4 +30,4 @@ The Contact section provides various ways to get in touch with me, including my 
 
 ## Preview
 
-![Portfolio Preview](screenshot.png)
+![Portfolio Preview](screenshot(1).png)
