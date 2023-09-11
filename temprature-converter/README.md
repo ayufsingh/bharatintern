@@ -13,5 +13,5 @@ The application features an intuitive user interface and provides real-time conv
 
 ## Preview
 
-![Portfolio Preview](preview.png)
+![Preview](preview.png)
 
