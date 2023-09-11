@@ -1,7 +1,5 @@
 # Temperature Converter
 
-![Temperature Converter Screenshot](screenshot.png)
-
 ## Table of Contents
 
 - [About](#about)
